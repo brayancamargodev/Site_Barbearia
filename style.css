@@ -1,8 +1,5 @@
 
-
 * {
-    margin: 0;
-    padding: 0;
     font-family: 'Pacifico', cursive;
     font-family: 'Phudu', cursive;
     font-family: 'Skranji', cursive;
@@ -20,93 +17,125 @@ header {
     width: auto;
 }
 
-nav {
-    margin-top: 53px;
-}
-
 h1 {
     color: white;
     letter-spacing: 5px;
-}
+    text-align: center; 
+}    
 
 a {
     color: white;
     text-decoration: none;
+    text-align: center;
 }
 
 a:hover {
     background-color: blue;
     cursor: pointer;
     border-radius: 15px;
+}    
+
+nav {
+    margin-top: 53px;
+    
 }
 
 p {
     text-align: center;
+    color: white;
+}    
+
+body {
+    overflow-x: hidden;
+    background-color: rgb(87, 82, 77);
 }
 
-footer {
-    text-align: center;
-}
-
-.wpp {
-    color: black;
-   
-}
-
-.slider {
-    margin: 0 auto;
-    width: 250px;
-    height: 400px;
-    overflow: hidden;
-}
-
-.slides {
-    width: 400%;
-    height: 400px;
-    display: flex;
-}
-
-.slides input {
-    display: none;
-}
-
-.slide {
-    width: 25%;
-    position: relative;
-}
-
-.slide img{
-    width: 250px;
-}
-
-.manual-navegation {
-    position: absolute;
-    width: 250px;
-    margin-top: -40px;
+main {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: black;
 }
 
-.manual-btm {
+.content {
+    height: 400px;
+    width: 250px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-size: contain;
+        
+}
+
+.content .slide img {
+    height: 104%;
+    width: 100%;
+}
+
+.navigation {
+    position: absolute;
+    bottom: 120px;
+    left: center;
+    display: flex;
+}
+
+.bar {
+    width: 10px;
+    height: 10px;
     border: 2px solid white;
-    padding: 5px;
-    border-radius: 10px;
+    margin: 5px;
+    border-radius: 15px;
     cursor: pointer;
-    transition: .8s;
+    transform: .4s ease;
 }
 
-.manual-btm:not(:last-child) {
-    margin-right: 15px;
-}
-
-.manual-btm:hover{
+.bar:hover {
     background-color: white;
 }
 
-#radio01:checked ~ .first{
+input {
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 700%;
+    height: 100%;
+} 
+
+.slide {
+    width: 20%;
+    transition: .5s;
+}
+
+#slide1:checked ~ .s1 {
     margin-left: 0;
 }
 
-#radio02:checked ~ .first{
-    margin-left: -25%;
+#slide2:checked ~ .s1 {
+    margin-left: -20%;
+}
+
+#slide3:checked ~ .s1 {
+    margin-left: -40%;
+}
+
+#slide4:checked ~ .s1 {
+    margin-left: -60%;
+}
+
+#slide5:checked ~ .s1 {
+    margin-left: -80%;
+}
+
+#slide6:checked ~ .s1 {
+    margin-left: -100%;
+}
+
+#slide7:checked ~ .s1 {
+    margin-left: -120%;
 }

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="Media-Query.css">
 </head>
 <body>
+
     <header>
         <h1>Barbearia</h1>
         <nav>
@@ -21,67 +22,61 @@
             </ul>
         </nav>
     </header>
-    
-        <p>"Bem-vindo à nossa barbearia, onde a tradição encontra o estilo moderno. Aqui, valorizamos a arte do   barbear e oferecemos uma  experiência única para  os nossos clientes.
+
+    <article>
+        <p>"Bem-vindo à nossa barbearia, onde a tradição encontra o estilo  moderno. Aqui, valorizamos a arte do   barbear e oferecemos uma  experiência única para  os nossos clientes.
             Nossa equipe de barbeiros altamente qualificados está pronta para cuidar do seu visual, proporcionando cortes de cabelo e barba impecáveis. Com anos de experiência e habilidades afiadas, eles estão sempre atualizados com as últimas tendências e técnicas de barbear.</p>
+    </article>
 
-        <div class="slider">
+    <main>
+ 
+        <div class="content">
             <div class="slides">
-                <input type="radio" name="radio-btm" id="radio01">
-                <input type="radio" name="radio-btm" id="radio02">
-                <input type="radio" name="radio-btm" id="radio03">
-                <input type="radio" name="radio-btm" id="radio04">
-                <input type="radio" name="radio-btm" id="radio05">
-                <input type="radio" name="radio-btm" id="radio06">
-                <input type="radio" name="radio-btm" id="radio07">
+        
+                <input  class="input" type="radio" name="slide" id="slide1" checked>
+                <input  class="input" type="radio" name="slide" id="slide2">
+                <input  class="input" type="radio" name="slide" id="slide3">
+                <input  class="input" type="radio" name="slide" id="slide4">
+                <input  class="input" type="radio" name="slide" id="slide5">
+                <input  class="input" type="radio" name="slide" id="slide6">
+                <input  class="input" type="radio" name="slide" id="slide7">
 
-
-                <div class="slide first">
-                    <img src="img/main.img.01.jpg" alt="01">
+                <div class="slide s1">
+                    <img src="img/main.img.01.jpg" alt="imagem 1">
                 </div>
                 <div class="slide">
-                    <img src="img/main.img.02.jpg" alt="02">
+                    <img src="img/main.img.02.jpg" alt="imagem 2">
                 </div>
                 <div class="slide">
-                    <img src="img/main.img.03.jpg" alt="03">
+                    <img src="img/main.img.03.jpg" alt="imagem 3">
                 </div>
                 <div class="slide">
-                    <img src="img/main.img.04.jpg" alt="04">
+                    <img src="img/main.img.04.jpg" alt="imagem 4">
+                </div>
+                 <div class="slide">
+                    <img src="img/main.img.05.jpg" alt="imagem 5">
                 </div>
                 <div class="slide">
-                    <img src="img/main.img.05.jpg" alt="05">
+                    <img src="img/main.img.06.jpg" alt="imagem 6">
                 </div>
                 <div class="slide">
-                    <img src="img/main.img.06.jpg" alt="06">
+                    <img src="img/main.img.07.jpg" alt="imagem 7">
                 </div>
-                <div class="slide">
-                    <img src="img/main.img.07.jpg" alt="07">
-                </div>
-
-                <div class="navegation">
-                    <div class="auto-btm1"></div>
-                    <div class="auto-btm2"></div>
-                    <div class="auto-btm3"></div>
-                    <div class="auto-btm4"></div>
-                    <div class="auto-btm5"></div>
-                    <div class="auto-btm6"></div>
-                    <div class="auto-btm7"></div>
-                </div>
-            </div>
-
-            <div class="manual-navegation">
-                <label for="for1" class="manual-btm"></label>
-                <label for="for2" class="manual-btm"></label>
-                <label for="for3" class="manual-btm"></label>
-                <label for="for4" class="manual-btm"></label>
-                <label for="for5" class="manual-btm"></label>
-                <label for="for6" class="manual-btm"></label>
-                <label for="for7" class="manual-btm"></label>
             </div>
         </div>
-    <footer>
-        &copy; Site Feito por Brayandev <a class="wpp" href="https://wa.me/5551993035491"><strong>clique aqui</strong></a> 
-    </footer>
-</body>
-<script src="script.js"></script>
-</html>
+
+        <div class="navigation">
+            <label class="bar" for="slide1"></label>
+            <label class="bar" for="slide2"></label>
+            <label class="bar" for="slide3"></label>
+            <label class="bar" for="slide4"></label>
+            <label class="bar" for="slide5"></label>
+            <label class="bar" for="slide6"></label>
+            <label class="bar" for="slide7"></label>
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>   
