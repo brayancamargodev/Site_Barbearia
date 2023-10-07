@@ -13,6 +13,10 @@ header {
     
 }
 
+li {
+    font-size: 20px;
+}
+
 h1 {
     color: white;
     letter-spacing: 5px;
@@ -61,7 +65,7 @@ main {
 
 .content {
     height: 550px;
-    width: 400px;
+    width: 335px;
     border-radius: 20px;
     overflow: hidden;
     background-size: contain;
@@ -125,4 +129,8 @@ input {
 
 #slide7:checked ~ .s1 {
     margin-left: -120%;
+}
+
+footer {
+    
 }
