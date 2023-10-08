@@ -64,7 +64,7 @@ main {
 }
 
 .content {
-    height: 550px;
+    height: auto;
     width: 335px;
     border-radius: 20px;
     overflow: hidden;
