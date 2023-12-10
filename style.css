@@ -10,7 +10,6 @@ header {
     background-image: url(img/img.barb.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
 li {
@@ -21,7 +20,15 @@ h1 {
     color: white;
     letter-spacing: 5px;
     text-align: center; 
+    font-size: 50px;
 }    
+
+h2 {
+    color: white;
+    letter-spacing: 5px;
+    text-align: center;  
+}
+
 
 a {
     color: white;
@@ -29,7 +36,8 @@ a {
 }
 
 a:hover {
-    background-color: blue;
+    background-color: white;
+    color: black;
     cursor: pointer;
     border-radius: 15px;
 }    
@@ -39,8 +47,9 @@ nav {
 }
 
 p {
-    font-size: 17px;
+    font-size: 20px;
     text-align: center;
+    background-color: black;
     color: white;
 }    
 
@@ -170,12 +179,6 @@ section {
     transition: all 2s;
 }
 
-h2 {
-    color: white;
-    letter-spacing: 5px;
-    text-align: center;  
-}
-
 .video {
     margin: 0px -20px 30px -20px;
     padding: 20px;
@@ -206,5 +209,11 @@ h2 {
 
 ul {
     list-style: none;
+}
+
+strong {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
 }
 
