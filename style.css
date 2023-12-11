@@ -10,10 +10,15 @@ header {
     background-image: url(img/img.barb.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 300px;
 }
 
 li {
     font-size: 30px;
+    display: inline-block;
+    margin-right: 60px;
+   
+    
 }
 
 h1 {
@@ -21,6 +26,7 @@ h1 {
     letter-spacing: 5px;
     text-align: center; 
     font-size: 50px;
+    margin-top: 30px;
 }    
 
 h2 {
@@ -43,7 +49,7 @@ a:hover {
 }    
 
 nav {
-    margin-top: -20px;
+    margin-top: -30px;
 }
 
 p {
@@ -51,6 +57,7 @@ p {
     text-align: center;
     background-color: black;
     color: white;
+    
 }    
 
 body {
