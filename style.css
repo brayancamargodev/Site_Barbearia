@@ -18,21 +18,35 @@ li {
     font-size: 30px;
     display: inline-block;
     margin-right: 60px;
-    
+   
 }
 
 h1 {
-    color: black;
+    color: white;
     letter-spacing: 5px;
     text-align: center; 
     font-size: 72px;
     margin-top: -20px;
+    font-family: "Nabla", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
 }    
 
 h2 {
     color: white;
     letter-spacing: 5px;
-    text-align: center;  
+    text-align: center;
+    font-family: "Nabla", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
 }
 
 
@@ -42,7 +56,7 @@ a {
 }
 
 a:hover {
-    background-color: white;
+    background-color: rgb(247, 224, 22);
     color: black;
     cursor: pointer;
     border-radius: 15px;
@@ -218,7 +232,7 @@ section {
 }
 
 strong {
-    background-color: white;
+    background-color: rgb(247, 224, 22);
     color: black;
     border-radius: 10px;
 }
